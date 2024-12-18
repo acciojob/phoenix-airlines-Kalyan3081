@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navBar {
+    background-color: #3F50B4;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 100;
+}
+
+.LandingpageTitle {
+    padding: 10px 20px;
+}
+
+.Landingpagebtn {
+    border: 1px solid #A1A9D9;
+    background-color: white;
+    color: #A1A9D9;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+label {
+    margin: 10px;
+}
+
+.FlightsearchSubContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    width: 12%;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.Flightsearchbtn {
+    background-color: #4050B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Bookingcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Bookingcontainer>input {
+    width: 11%;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}

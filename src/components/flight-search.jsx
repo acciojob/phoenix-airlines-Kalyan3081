@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import styles from './PhoenixAirlines.module.css';
+import styles from './PhoenixAirlines.css';
 import { Link } from 'react-router-dom';
 
 const Flightsearch = ({
@@ -17,10 +17,10 @@ const Flightsearch = ({
 }) => {
     return (
         <>
-            <nav className={styles.navBar}>
+            <nav className='navBar'>
                 <h3>Flight Booking App</h3>
             </nav>
-            <div className={styles.FlightsearchContainer}>
+            <div className='FlightsearchContainer'>
                 <input
                     type="radio"
                     id="oneway"
@@ -36,7 +36,7 @@ const Flightsearch = ({
                 />
                 <label htmlFor="roundTrip">Round Trip</label>
             </div>
-            <div className={styles.FlightsearchSubContainer}>
+            <div className='FlightsearchSubContainer'>
                 <div>
                     <label htmlFor="sourcecity">Source City</label>
                     <select
@@ -95,7 +95,7 @@ const Flightsearch = ({
                 )}
             </div>
             <Link to="/flight-booking">
-                <button className={`${styles.Flightsearchbtn} book-flight`}>Search flight</button>
+                <button className='Flightsearchbtn book-flight'>Search flight</button>
             </Link>
         </>
     );

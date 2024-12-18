@@ -1,16 +1,16 @@
 import React from 'react'
-import styles from './PhoenixAirlines.module.css'
+import styles from './PhoenixAirlines.css'
 import { Link } from 'react-router'
 
 
 const Flight_booking = () => {
     return (
         <>
-            <nav className={styles.navBar}>
+            <nav className='navBar'>
                 <h3>Flight Booking App</h3>
             </nav>
             <p>Booking Confirmation for Flight Air India (AI-275)</p>
-            <div className={styles.Bookingcontainer}>
+            <div className='Bookingcontainer'>
 
                 <label htmlFor="firstName">First Name *</label>
                 <input type="text" id="firstName" name="firstName" required />
@@ -29,7 +29,7 @@ const Flight_booking = () => {
             </div>
 
             <Link to="/confirmation">
-                <button className={styles.Flightsearchbtn}>Confirm Booking</button>
+                <button className='Flightsearchbtn'>Confirm Booking</button>
             </Link>
         </>
     )

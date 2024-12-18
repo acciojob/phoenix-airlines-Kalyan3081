@@ -58,7 +58,7 @@ const Flightsearch = ({
                     <label htmlFor="destcity">Destination City</label>
                     <select
                         id="destcity"
-                        className={styles.city}
+                        className='city'
                         value={destinationCity}
                         onChange={(e) => setDestinationCity(e.target.value)}
                     >
@@ -76,7 +76,7 @@ const Flightsearch = ({
                     <input
                         type="date"
                         id="journeyDate"
-                        className={styles.city}
+                        className='city'
                         value={journeyDate}
                         onChange={(e) => setJourneyDate(e.target.value)}
                     />
@@ -87,7 +87,7 @@ const Flightsearch = ({
                         <input
                             type="date"
                             id="returnDate"
-                            className={styles.city}
+                            className='city'
                             value={returnDate}
                             onChange={(e) => setReturnDate(e.target.value)}
                         />

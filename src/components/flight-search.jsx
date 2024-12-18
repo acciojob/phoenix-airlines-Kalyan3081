@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import styles from './PhoenixAirlines.css';
-import { Link } from 'react-router-dom';
+import './PhoenixAirlines.css'
+    import { Link } from 'react-router-dom';
 
 const Flightsearch = ({
     tripType,

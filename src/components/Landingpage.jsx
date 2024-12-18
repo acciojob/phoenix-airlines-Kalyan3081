@@ -1,16 +1,16 @@
 import React from 'react'
-import styles from './PhoenixAirlines.module.css'
+import styles from './PhoenixAirlines.css'
 import { Link } from 'react-router'
 
 const Landingpage = () => {
     return (
         <>
-            <nav className={styles.navBar}>
+            <nav className='navBar'>
                 <h3>Flight Booking App</h3>
             </nav>
-            <h1 className={styles.LandingpageTitle}>Welcome to Flight Booking App</h1>
+            <h1 className='LandingpageTitle'>Welcome to Flight Booking App</h1>
             <Link to="/flight-search">
-                <button className={styles.Landingpagebtn}>Search flights here</button>
+                <button className='Landingpagebtn'>Search flights here</button>
             </Link>
         </>
     )

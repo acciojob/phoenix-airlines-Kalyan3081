@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './PhoenixAirlines.css'
-import { Link } from 'react-router'
+import './PhoenixAirlines.css'
+    import { Link } from 'react-router'
 
 const Landingpage = () => {
     return (
